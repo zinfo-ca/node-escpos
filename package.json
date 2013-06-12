@@ -1,0 +1,37 @@
+{
+  "name": "node-escpos",
+  "version": "0.0.4",
+  "description": "A library used for communicatng with ESCPOS compatible device.",
+  "author": {
+    "name": "Jean-Philippe Blais",
+    "email": "jphblais@zinfo.ca",
+    "url": "http://www.zinfo.ca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zinfo-ca/node-escpos"
+  },
+  "maintainers": [
+    {
+      "name": "Jean-Philippe Blais",
+      "email": "jphblais@zinfo.ca"
+    },
+    {
+      "name": "Alexandre Cascio",
+      "email": "acascio@zinfo.ca"
+    }
+  ],
+  "main": "./lib/node-escpos",
+  "keywords": [
+    "pos",
+    "escpos"
+  ],
+  "dependencies": {
+    "serialport": "*",
+    "iconv": "*"
+  },
+  "readme": "node-escpos\n=================\n\nThis is a library used for communicatng with ESCPOS compatible devices.\n\nQuick start\n-----------\n\n**For Printers**\n\nprintLine(text)\nprintCentered(text)\nprintCenteredLen(text, charOffSet)\nprintCommand(escposCommand)\n\n**For Client Displays**\n\ncenteredUpperLine(text)\ncenteredBottomLine(text)\n",
+  "readmeFilename": "README.md",
+  "_id": "node-escpos@0.0.3",
+  "_from": "node-escpos@*"
+}
