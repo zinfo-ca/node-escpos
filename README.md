@@ -8,12 +8,12 @@ Quick start
 
 **For Printers**
 
-printLine(text)
-printCentered(text)
-printCenteredLen(text, charOffSet)
-printCommand(escposCommand)
+printLine(text)  
+printCentered(text)  
+printCenteredLen(text, charOffSet)  
+printCommand(escposCommand)  
 
 **For Client Displays**
 
-centeredUpperLine(text)
-centeredBottomLine(text)
+centeredUpperLine(text)  
+centeredBottomLine(text)  
